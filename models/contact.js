@@ -11,7 +11,7 @@ const contact = sequelize.define('contacts', {
     // allowNull defaults to true
   },
   phone: {
-    type: DataTypes.INTEGER
+    type: DataTypes.BIGINT
     // allowNull defaults to true
   }
 }, {

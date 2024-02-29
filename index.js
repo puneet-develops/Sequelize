@@ -9,6 +9,7 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 app.get('/add',userctrl.adduser)
+app.get('/contact',userctrl.addcontact)
 
 app.listen(3000,()=>{
     console.log("app will run on 3000");

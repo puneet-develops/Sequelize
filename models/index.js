@@ -1,5 +1,5 @@
 const { Sequelize, DataTypes, Model } = require('sequelize');
-const sequelize = new Sequelize('employeedb', 'postgres', 'Rkrajput@123', {
+const sequelize = new Sequelize('newDB', 'postgres', 'Rkrajput@123', {
     host: 'localhost',
     logging:false,
     dialect:'postgres' /* one of 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */
